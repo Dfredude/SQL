@@ -37,7 +37,7 @@ They have evolved over the years.
 - SQL transaction Statements    
 
 ### Data Dictionary
-All databse elements created via SQL schema statements are stored in a special set of tables called the ***data dictionary*** - Data about the database
+All database elements created via SQL schema statements are stored in a special set of tables called the ***data dictionary*** - Data about the database
 
 ### Non-procedural
 

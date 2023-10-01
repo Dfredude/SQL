@@ -86,3 +86,19 @@ use <database-name>;
 - Nonexistent Foreing Key
 - Column Value Violations
 - Invalid Date Conversions
+
+### Query Clauses
+
+- SELECT
+- FROM
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+
+### Table Types
+
+- Permanent tables
+- Derived tables
+- Temporary tables
+- Virtual tables

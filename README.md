@@ -42,3 +42,47 @@ All database elements created via SQL schema statements are stored in a special 
 ### Non-procedural
 
 SQL is a **non-procedural** language in that you may control the results, however you may not control the way the process of doing so is done.
+
+## Chapter 2: Creating and populating 
+
+### mysql Command-Line
+
+> To log in as a root user
+
+```bash
+mysql -u root -p 
+```
+> Log in using database `<database-name>`
+```bash
+mysql -u root -p <database-name>
+```
+
+### mysql interactive mdoe commands
+> Show databases
+```bash
+show databases;
+```
+> Specify which database to use
+```bash
+use <database-name>;
+```
+
+### Data types
+> Temporal data is dates and/or time.
+
+### Table creation
+
+              Design
+                |
+                v
+            Refinement
+                |
+                v
+        SQL Schema Statements
+
+### Common mistakes when inserting or modifying data
+
+- Nonunique Primary Key
+- Nonexistent Foreing Key
+- Column Value Violations
+- Invalid Date Conversions

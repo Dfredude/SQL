@@ -114,6 +114,8 @@ SHOW tables;
 - Temporary tables
 - Virtual tables
 
+## Chapter 3
+
 ### Exercises
 
 #### 3.1
@@ -168,3 +170,25 @@ FROM customer c
   WHERE date(r.rental_date) = '2005-06-14'
   ORDER BY r.return_date DESC;
 ```
+
+## Chapter 4
+
+> **BETWEEN** Operator may be used instead of `<= and >=`
+
+> **IN** operator usable in rows returned by a subquery or any set. Returns True if the item is in the set, False otherwise.
+
+### SQL built-in functions
+
+SQL has many built-in functions.
+
+- `LEFT()`
+- `NOW()`
+
+Comparisons to make when filtering data:
+- Exact comparison
+- Within a range
+- In a set
+- Partial string match - Wildcard characters '-' and '%' or REGEX expressions.
+
+
+> 💀 NULL - An expression can be NULL, but it can never equal NULL - Two nulls are never equal to each other.
